@@ -1,0 +1,169 @@
+{
+ "check2": {
+  "rows": [
+   {
+    "param": "D",
+    "value": 0.1,
+    "period": 4.0,
+    "ratio": 150.7,
+    "gaps": {
+     "4": 48
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "D",
+    "value": 0.12,
+    "period": 3.0,
+    "ratio": 46.0,
+    "gaps": {
+     "3": 65
+    },
+    "verdict": "周期はあるが別物"
+   },
+   {
+    "param": "d_l",
+    "value": 0.0,
+    "period": 4.0,
+    "ratio": 197.9,
+    "gaps": {
+     "4": 49
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "d_l",
+    "value": 0.2,
+    "period": 4.0,
+    "ratio": 216.7,
+    "gaps": {
+     "4": 49
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "d_h",
+    "value": 3.5,
+    "period": 4.0,
+    "ratio": 60.4,
+    "gaps": {
+     "3": 3,
+     "4": 46
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "d_h",
+    "value": 4.5,
+    "verdict": "発散"
+   },
+   {
+    "param": "r_s",
+    "value": 0.0,
+    "period": 4.0,
+    "ratio": 200.7,
+    "gaps": {
+     "4": 49
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "r_s",
+    "value": 0.4,
+    "period": 4.0,
+    "ratio": 140.7,
+    "gaps": {
+     "4": 49
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "r_w",
+    "value": 4.0,
+    "period": 4.0,
+    "ratio": 154.5,
+    "gaps": {
+     "4": 49
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "r_w",
+    "value": 6.0,
+    "verdict": "発散"
+   },
+   {
+    "param": "v",
+    "value": 3.0,
+    "verdict": "発散"
+   },
+   {
+    "param": "v",
+    "value": 5.0,
+    "period": 4.0,
+    "ratio": 96.9,
+    "gaps": {
+     "4": 49
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "c",
+    "value": 750.0,
+    "period": 4.0,
+    "ratio": 169.1,
+    "gaps": {
+     "4": 49
+    },
+    "verdict": "再現した"
+   },
+   {
+    "param": "c",
+    "value": 1250.0,
+    "period": 4.0,
+    "ratio": 161.8,
+    "gaps": {
+     "4": 49
+    },
+    "verdict": "再現した"
+   }
+  ],
+  "ok": 10,
+  "n": 14,
+  "verdict": "保留"
+ },
+ "check3": {
+  "by_sigma": {
+   "0.1": {
+    "period_median": NaN,
+    "gap_counts": {},
+    "up_median": NaN,
+    "down_median": NaN,
+    "up_down_counts": {},
+    "diverged": 10
+   },
+   "0.2": {
+    "period_median": NaN,
+    "gap_counts": {},
+    "up_median": NaN,
+    "down_median": NaN,
+    "up_down_counts": {},
+    "diverged": 10
+   },
+   "0.3": {
+    "period_median": NaN,
+    "gap_counts": {},
+    "up_median": NaN,
+    "down_median": NaN,
+    "up_down_counts": {},
+    "diverged": 10
+   }
+  },
+  "four_years_kept": false,
+  "shape_real_like": {
+   "0.1": false,
+   "0.2": false,
+   "0.3": false
+  }
+ }
+}
